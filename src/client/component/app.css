@@ -1,0 +1,47 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+.container-fluid {
+  padding: 0px;
+  height: 100%;
+  min-width: 768px;
+}
+@media screen and (min-width: 768px) {
+  .note-container-body {
+    min-width: 975px
+  }
+}
+.note-container-body {
+  height: 90%;
+}
+.note-menu{ 
+  background-color: #EAEAEA;
+  height: 100%;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 2px 4px 4px;
+  min-height: 675px;
+}
+.note-container-header {
+  height: 7%;
+  background-color: #EAEAEA;
+  align-items: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 4px 4px 2px 4px;
+  min-height: 50px;
+}
+.note-content {
+  height: 100%;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 4px 4px 2px;
+  min-height: 675px;
+}
+.note-container-spinner {
+  height: 100%;
+  text-align: center;
+}
+.note-container-spinner .icons {
+  width: 60px;
+  height: 60px;
+}

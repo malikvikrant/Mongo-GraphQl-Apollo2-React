@@ -1,0 +1,9 @@
+.note-list {
+  height: 100%;
+  overflow: scroll;
+  max-height: 700px;
+}
+
+.notepad-area {
+  max-height: 1000px;
+}
